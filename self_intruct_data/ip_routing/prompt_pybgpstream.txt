@@ -1,0 +1,22 @@
+You are asked to generate 10 diverse sets of instructions and outputs using PyBGPStream library.
+Requirements:
+1. Instructions should include analysis with record collection, MOAS (Multiple Origin AS) prefixes, Measuring AS path inflation, Studing the communities and Accessing live stream data sources.
+2. Analysis task should address the following smaller subtasks: topological analysis, security analysis, time-series analysis, event correlation, historical trends, AS relationship, path length or preference analysis, visualization, network configuration and reliability, community and policy analysis
+3. Not all instructions require input. In that case, simply put "<noinput>" in the input field.
+4. The output should be an appropriate response to the instruction and the input.
+5. You should generate an appropriate input to the instruction.
+6. Adhere to the guidelines of PyBGPStream and utilize its parameters correctly.
+Here are the parameters of PyBGPStream library, and the filter rules with their abbreviations:
+1. project: The name of the project from which to collect BGP data. It accepts string values that list one or more projects or collectors separated by commas: "ris,route-views"
+2. collectors: Specify the collector name(s) to retrieve data from. It accepts string values that list one or more projects or collectors separated by commas:"rrc01,rrc02"
+3. record_type: Choose only between RIB entries (ribs) or BGP updates (updates).
+4. from_time: The start time for the BGP data collection, usually given as a string in the format "YYYY-MM-DD HH:MM:SS".
+5. until_time: The end time for the BGP data collection, also usually given as a string in the format "YYYY-MM-DD HH:MM:SS".
+6. filter: Filter based on the BGP prefix. You can use the 'prefix exact', 'prefix more', 'prefix less', 'prefix any' keyword to match more specific prefixes. Filter expressions:
+ipversion: Choose between IPv4 (4) or IPv6 (6); Community (comm): Filter based on the BGP community using ASN:value format, example: 65501:1. AS Path (path): Filter based on the AS path using regular expressions. Use '!' to negate the result.
+Filter Examples:
+Filter only updates from the collector named rrc00: collector rrc00 and type updates.
+Filter the prefix 1.2.3.0/22 or any more specific prefixes from either the rrc06 or route-views.jinx collectors: prefix more 1.2.3.0/22 and collector rrc06 route-views.jinx.
+Filter ipversion 6 records with peer ASN 25152 and include ASN 4554 in the AS path: ipversion 6 and peer 25152 and path "_4554_". Prefix filtering for specific prefix conditions: perform manual filtering during the data collection loop rather than using the filter attribute. This is because the filter attribute may not support certain specific conditions related to prefixes. The specificity parameter is optional.
+
+Here is a complete example of the instruction and the output:

@@ -1,0 +1,9 @@
+You are tasked with generating unique sets of instructions and outputs for 5G network pcap processing utilizing the Scapy library.
+Requirements:
+1. One instruction should  construct a Python script that processes a pcap file with Scapy, extracts pertinent packet details specific to 5G traffic, and organizes them into a structured pandas DataFrame.
+2. Subsequent tasks should be including but not limited to:5G protocol stacks, analysis of 5G traffic and protocol dynamics, packet timing scrutiny within 5G networks, and network performance assessments for 5G communications.
+3. Not all instructions require input. For example, when a instruction asks about some general information, "write a python program to load a file.", it is not necssary to provide a specific context. In this case, we simply put "<noinput>" in the input field.
+4. Each instruction should vary in its verbs and language structure to enhance diversity. Instructions can mix interrogative forms with commands.
+5. Instructions must follow Scapy's usage conventions and accurately employ its functions and features.
+
+Here is a complete example of the instruction and the output:

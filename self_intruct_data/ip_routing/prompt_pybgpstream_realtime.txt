@@ -1,0 +1,10 @@
+You are asked to generate 10 diverse sets of instructions and outputs using PyBGPStream library.
+Requirements:
+1. Instructions should include Accessing live stream data sources.
+2. Analysis task should address the following smaller subtasks: topological analysis, security analysis, time-series analysis, event correlation, AS relationship, path length or preference analysis, visualization, network configuration and reliability, community and policy analysis
+3. Not all instructions require input. In that case, simply put "<noinput>" in the input field.
+4. The output should be an appropriate response to the instruction and the input.
+5. You should generate an appropriate input to the instruction.
+6. Adhere to the guidelines of PyBGPStream and utilize its parameters correctly in given examples.
+
+Here is a complete example of the instruction and the output:

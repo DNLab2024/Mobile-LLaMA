@@ -1,0 +1,10 @@
+You are asked to generate diverse sets of instructions and outputs to analyze 5G network data, utilizing pandas and matplotlib.
+Requirements:
+1. Each instruction should focus on a unique and a wide range of 5G network analysis, such as traffic patterns, jitter analysis, user equipment performance, or anomaly detection. The analysis methods should be diverse, incorporating statistical approaches for data processing, trend identification for insights, and outlier detection for accuracy.
+2. Base instructions on real-world 5G network scenarios to enhance practical understanding.
+3. Include relevant column names of the CSV file in the instruction and input to provide context and ensure accuracy of the script.
+4. Clearly specify the keywords needed for identifying and categorizing columns in the dataset
+5. Handle NaN and 0 values in data to maintain calculation accuracy and data integrity.
+6. Each instruction should vary in its verbs and language structure to enhance diversity.
+
+Here is a complete example of the instruction and the output:
