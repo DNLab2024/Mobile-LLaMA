@@ -1,0 +1,54 @@
+2024-01-15 03:24:13,265 INFO    StreamThr :167353 [internal.py:wandb_internal():86] W&B internal server running at pid: 167353, started at: 2024-01-15 03:24:13.264408
+2024-01-15 03:24:13,269 DEBUG   HandlerThread:167353 [handler.py:handle_request():144] handle_request: status
+2024-01-15 03:24:13,284 INFO    WriterThread:167353 [datastore.py:open_for_write():85] open: /home/hb/Mobile-LLaMA/wandb/run-20240115_032413-wykpzys0/run-wykpzys0.wandb
+2024-01-15 03:24:13,285 DEBUG   SenderThread:167353 [sender.py:send():379] send: header
+2024-01-15 03:24:13,540 DEBUG   SenderThread:167353 [sender.py:send():379] send: run
+2024-01-15 03:24:14,069 INFO    SenderThread:167353 [dir_watcher.py:__init__():211] watching files in: /home/hb/Mobile-LLaMA/wandb/run-20240115_032413-wykpzys0/files
+2024-01-15 03:24:14,070 INFO    SenderThread:167353 [sender.py:_start_run_threads():1122] run started: wykpzys0 with start time 1705256653.265241
+2024-01-15 03:24:14,070 DEBUG   SenderThread:167353 [sender.py:send_request():406] send_request: summary_record
+2024-01-15 03:24:14,071 INFO    SenderThread:167353 [sender.py:_save_file():1376] saving file wandb-summary.json with policy end
+2024-01-15 03:24:14,084 DEBUG   HandlerThread:167353 [handler.py:handle_request():144] handle_request: check_version
+2024-01-15 03:24:14,085 DEBUG   SenderThread:167353 [sender.py:send_request():406] send_request: check_version
+2024-01-15 03:24:14,170 DEBUG   HandlerThread:167353 [handler.py:handle_request():144] handle_request: run_start
+2024-01-15 03:24:14,210 DEBUG   HandlerThread:167353 [system_info.py:__init__():31] System info init
+2024-01-15 03:24:14,210 DEBUG   HandlerThread:167353 [system_info.py:__init__():46] System info init done
+2024-01-15 03:24:14,210 INFO    HandlerThread:167353 [system_monitor.py:start():181] Starting system monitor
+2024-01-15 03:24:14,210 INFO    SystemMonitor:167353 [system_monitor.py:_start():145] Starting system asset monitoring threads
+2024-01-15 03:24:14,212 INFO    HandlerThread:167353 [system_monitor.py:probe():201] Collecting system info
+2024-01-15 03:24:14,212 INFO    SystemMonitor:167353 [interfaces.py:start():190] Started cpu monitoring
+2024-01-15 03:24:14,213 INFO    SystemMonitor:167353 [interfaces.py:start():190] Started disk monitoring
+2024-01-15 03:24:14,215 INFO    SystemMonitor:167353 [interfaces.py:start():190] Started gpu monitoring
+2024-01-15 03:24:14,217 INFO    SystemMonitor:167353 [interfaces.py:start():190] Started memory monitoring
+2024-01-15 03:24:14,219 INFO    SystemMonitor:167353 [interfaces.py:start():190] Started network monitoring
+2024-01-15 03:24:14,270 DEBUG   HandlerThread:167353 [system_info.py:probe():195] Probing system
+2024-01-15 03:24:14,283 DEBUG   HandlerThread:167353 [system_info.py:_probe_git():180] Probing git
+2024-01-15 03:24:14,310 DEBUG   HandlerThread:167353 [system_info.py:_probe_git():188] Probing git done
+2024-01-15 03:24:14,310 DEBUG   HandlerThread:167353 [system_info.py:probe():240] Probing system done
+2024-01-15 03:24:14,311 DEBUG   HandlerThread:167353 [system_monitor.py:probe():210] {'os': 'Linux-5.15.0-87-generic-x86_64-with-glibc2.17', 'python': '3.8.16', 'heartbeatAt': '2024-01-14T18:24:14.270948', 'startedAt': '2024-01-14T18:24:13.249476', 'docker': None, 'cuda': None, 'args': (), 'state': 'running', 'program': '<python with no main file>', 'git': {'remote': 'https://github.com/DNLab2024/Mobile-LLaMA', 'commit': 'a80592ba4ecd11cd312b4dbeb37c5d93b9341269'}, 'email': 'mkkanhb@gmail.com', 'root': '/home/hb/Mobile-LLaMA', 'host': 'carla', 'username': 'hb', 'executable': '/home/hb/myenv/bin/python', 'cpu_count': 20, 'cpu_count_logical': 40, 'cpu_freq': {'current': 2462.90825, 'min': 1000.0, 'max': 3400.0}, 'cpu_freq_per_core': [{'current': 2500.0, 'min': 1000.0, 'max': 3400.0}, {'current': 2500.0, 'min': 1000.0, 'max': 3400.0}, {'current': 2500.0, 'min': 1000.0, 'max': 3400.0}, {'current': 2500.0, 'min': 1000.0, 'max': 3400.0}, {'current': 2500.0, 'min': 1000.0, 'max': 3400.0}, {'current': 2500.0, 'min': 1000.0, 'max': 3400.0}, {'current': 2500.0, 'min': 1000.0, 'max': 3400.0}, {'current': 2500.0, 'min': 1000.0, 'max': 3400.0}, {'current': 2500.0, 'min': 1000.0, 'max': 3400.0}, {'current': 2500.0, 'min': 1000.0, 'max': 3400.0}, {'current': 2500.0, 'min': 1000.0, 'max': 3400.0}, {'current': 2500.0, 'min': 1000.0, 'max': 3400.0}, {'current': 2500.0, 'min': 1000.0, 'max': 3400.0}, {'current': 2500.0, 'min': 1000.0, 'max': 3400.0}, {'current': 2500.0, 'min': 1000.0, 'max': 3400.0}, {'current': 2500.0, 'min': 1000.0, 'max': 3400.0}, {'current': 2500.0, 'min': 1000.0, 'max': 3400.0}, {'current': 2500.0, 'min': 1000.0, 'max': 3400.0}, {'current': 2500.0, 'min': 1000.0, 'max': 3400.0}, {'current': 2500.0, 'min': 1000.0, 'max': 3400.0}, {'current': 2500.0, 'min': 1000.0, 'max': 3400.0}, {'current': 2500.0, 'min': 1000.0, 'max': 3400.0}, {'current': 2500.0, 'min': 1000.0, 'max': 3400.0}, {'current': 2500.0, 'min': 1000.0, 'max': 3400.0}, {'current': 2500.0, 'min': 1000.0, 'max': 3400.0}, {'current': 2500.0, 'min': 1000.0, 'max': 3400.0}, {'current': 2500.0, 'min': 1000.0, 'max': 3400.0}, {'current': 2500.0, 'min': 1000.0, 'max': 3400.0}, {'current': 2500.0, 'min': 1000.0, 'max': 3400.0}, {'current': 2500.0, 'min': 1000.0, 'max': 3400.0}, {'current': 2500.0, 'min': 1000.0, 'max': 3400.0}, {'current': 2500.0, 'min': 1000.0, 'max': 3400.0}, {'current': 2500.0, 'min': 1000.0, 'max': 3400.0}, {'current': 2500.0, 'min': 1000.0, 'max': 3400.0}, {'current': 2500.0, 'min': 1000.0, 'max': 3400.0}, {'current': 2500.0, 'min': 1000.0, 'max': 3400.0}, {'current': 1000.0, 'min': 1000.0, 'max': 3400.0}, {'current': 2500.0, 'min': 1000.0, 'max': 3400.0}, {'current': 2500.0, 'min': 1000.0, 'max': 3400.0}, {'current': 2500.0, 'min': 1000.0, 'max': 3400.0}], 'disk': {'total': 3665.956069946289, 'used': 2835.306987762451}, 'gpu': 'NVIDIA RTX A6000', 'gpu_count': 2, 'gpu_devices': [{'name': 'NVIDIA RTX A6000', 'memory_total': 51527024640}, {'name': 'NVIDIA RTX A6000', 'memory_total': 51527024640}], 'memory': {'total': 251.53573989868164}}
+2024-01-15 03:24:14,311 INFO    HandlerThread:167353 [system_monitor.py:probe():211] Finished collecting system info
+2024-01-15 03:24:14,311 INFO    HandlerThread:167353 [system_monitor.py:probe():214] Publishing system info
+2024-01-15 03:24:14,311 DEBUG   HandlerThread:167353 [system_info.py:_save_pip():51] Saving list of pip packages installed into the current environment
+2024-01-15 03:24:14,312 DEBUG   HandlerThread:167353 [system_info.py:_save_pip():67] Saving pip packages done
+2024-01-15 03:24:14,314 INFO    HandlerThread:167353 [system_monitor.py:probe():216] Finished publishing system info
+2024-01-15 03:24:14,333 DEBUG   SenderThread:167353 [sender.py:send():379] send: files
+2024-01-15 03:24:14,333 INFO    SenderThread:167353 [sender.py:_save_file():1376] saving file wandb-metadata.json with policy now
+2024-01-15 03:24:14,361 DEBUG   HandlerThread:167353 [handler.py:handle_request():144] handle_request: stop_status
+2024-01-15 03:24:14,362 DEBUG   SenderThread:167353 [sender.py:send_request():406] send_request: stop_status
+2024-01-15 03:24:14,658 DEBUG   SenderThread:167353 [sender.py:send():379] send: telemetry
+2024-01-15 03:24:14,659 DEBUG   SenderThread:167353 [sender.py:send():379] send: config
+2024-01-15 03:24:14,661 DEBUG   SenderThread:167353 [sender.py:send():379] send: metric
+2024-01-15 03:24:14,661 DEBUG   SenderThread:167353 [sender.py:send():379] send: telemetry
+2024-01-15 03:24:14,661 DEBUG   SenderThread:167353 [sender.py:send():379] send: metric
+2024-01-15 03:24:14,661 WARNING SenderThread:167353 [sender.py:send_metric():1327] Seen metric with glob (shouldn't happen)
+2024-01-15 03:24:15,073 INFO    Thread-12 :167353 [dir_watcher.py:_on_file_created():272] file/dir created: /home/hb/Mobile-LLaMA/wandb/run-20240115_032413-wykpzys0/files/requirements.txt
+2024-01-15 03:24:15,074 INFO    Thread-12 :167353 [dir_watcher.py:_on_file_created():272] file/dir created: /home/hb/Mobile-LLaMA/wandb/run-20240115_032413-wykpzys0/files/output.log
+2024-01-15 03:24:15,074 INFO    Thread-12 :167353 [dir_watcher.py:_on_file_created():272] file/dir created: /home/hb/Mobile-LLaMA/wandb/run-20240115_032413-wykpzys0/files/wandb-summary.json
+2024-01-15 03:24:15,074 INFO    Thread-12 :167353 [dir_watcher.py:_on_file_created():272] file/dir created: /home/hb/Mobile-LLaMA/wandb/run-20240115_032413-wykpzys0/files/wandb-metadata.json
+2024-01-15 03:24:15,339 INFO    wandb-upload_0:167353 [upload_job.py:push():131] Uploaded file /tmp/tmpqioi6njkwandb/u13mdnkb-wandb-metadata.json
+2024-01-15 03:24:17,071 INFO    Thread-12 :167353 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/hb/Mobile-LLaMA/wandb/run-20240115_032413-wykpzys0/files/output.log
+2024-01-15 03:24:18,664 DEBUG   HandlerThread:167353 [handler.py:handle_request():144] handle_request: status_report
+2024-01-15 03:24:23,665 DEBUG   HandlerThread:167353 [handler.py:handle_request():144] handle_request: status_report
+2024-01-15 03:24:28,666 DEBUG   HandlerThread:167353 [handler.py:handle_request():144] handle_request: status_report
+2024-01-15 03:24:29,386 DEBUG   HandlerThread:167353 [handler.py:handle_request():144] handle_request: stop_status
+2024-01-15 03:24:29,387 DEBUG   SenderThread:167353 [sender.py:send_request():406] send_request: stop_status
+2024-01-15 03:24:34,618 DEBUG   HandlerThread:167353 [handler.py:handle_request():144] handle_request: status_report
