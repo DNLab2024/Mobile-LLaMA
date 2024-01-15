@@ -1,1 +1,8 @@
 # Mobile-LLaMA: instruction fine-tuning open-source LLM for network analysis in 5G NWDAF
+
+**Abstract**: In the evolving landscape of 5G networks, the Network Data Analytics Function (NWDAF) emerges as a key component, interacting with core network elements to enhance data collection, model training, and analytical outcomes.  
+Language Models (LLMs), with their state-of-the-art capabilities in natural language processing, have been successful in numerous fields. In particular, LLMs enhanced through instruction fine-tuning have demonstrated their effectiveness by employing sets of instructions to precisely tailor the model's responses and behavior. However, it requires collecting a large pool of high-quality training data regarding the precise domain knowledge and the corresponding programming codes. 
+We present an open-source mobile network-specialized LLM - Mobile-LLaMA, instruction-finetuned LLaMA-13B model. We built Mobile-LLaMA by instruction fine-tuning LLaMA with our own network analysis data that we collect from publicly available, real-world 5G network datasets and expanded by the self-instruct framework utilizing OpenAI’s pretrained models (PMs). Mobile-LLaMA has three main functions: Packet Analysis Function, IP Routing Analysis, and Performance Analysis Function, enabling it to provide network analysis and contribute to the automation and artificial intelligence (AI) required for 5G network management and data analysis. 
+Our evaluation demonstrates Mobile-LLaMA's proficiency in network analysis code generation, achieving a score of 247 out of 300, surpassing Chat-GPT’s score of 209.
+
+![The Architecture of NWDAF featuring Mobile-LLaMA for 5G network analytics](./architecture.pdf)
