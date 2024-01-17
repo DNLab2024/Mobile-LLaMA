@@ -7,9 +7,11 @@ Our evaluation demonstrates Mobile-LLaMA's proficiency in network analysis code 
 
 ## Directory Structure
 
-- **self_instruct_data**: This directory contains three separate subdirectories, each containing instructions generated via the self-instruct framework for one of Mobile-LLaMA's main functions: Packet Analysis, IP Routing Analysis, and Performance Analysis.
+- **self_instruct_data**: Three separate subdirectories, each containing instructions generated via the self-instruct framework for one of Mobile-LLaMA's main functions: Packet Analysis, IP Routing Analysis, and Performance Analysis.
 
-- **training_data**: In this directory, you'll find the main training data for Mobile-LLaMA. We've combined all the instructions used in training, totaling 15,111 instruction sets.
+- **training_data**: The main training data for Mobile-LLaMA. We've combined all the instructions used in training, totaling 15,111 instruction sets.
+
+- **evaluation**: Three JSON files containing specific instructions used for "Performance Evaluation" in each respective function.
 
 ## Jupyter Notebook Scripts
 

@@ -1,0 +1,42 @@
+[
+    {
+        "name": "Detailed Packet Analysis with DataFrame",
+        "instruction": "Utilize DataFrames for in-depth analysis of packet data, focusing on structure and content."
+    },
+    {
+        "name": "Packet Timing Analysis",
+        "instruction": "Evaluate the timing intervals of packet transmissions to identify delays and peak traffic periods."
+    },
+    {
+        "name": "Security Analysis of Network Packets",
+        "instruction": "Examine packets for security threats, protocol breaches, and unauthorized access attempts."
+    },
+    {
+        "name": "Flow Analysis of Network Traffic",
+        "instruction": "Analyze the flow patterns of packets to identify typical and atypical traffic behavior."
+    },
+    {
+        "name": "Time Series Analysis and Visualization of Packet Data",
+        "instruction": "Conduct a time series analysis of packet data and visualize trends over time."
+    },
+    {
+        "name": "Statistical Analysis of Network Packets",
+        "instruction": "Apply statistical methods to analyze packet data for pattern recognition and anomaly detection."
+    },
+    {
+        "name": "Packet Size Analysis for Bandwidth Utilization",
+        "instruction": "Assess packet sizes to understand bandwidth usage and identify potential bottlenecks."
+    },
+    {
+        "name": "Analysis of Packet Loss Rate and Round-Trip Time (RTT)",
+        "instruction": "Evaluate the frequency of packet loss and measure RTT to assess network reliability."
+    },
+    {
+        "name": "Anomaly Detection in Packet Transmission",
+        "instruction": "Detect and analyze anomalies in packet transmission to identify potential network issues."
+    },
+    {
+        "name": "Quality of Service (QoS) Analysis in Packet Transmission",
+        "instruction": "Assess packet data to ensure adherence to QoS standards and optimize network performance."
+    }
+]

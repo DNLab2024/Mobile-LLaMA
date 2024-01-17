@@ -1,0 +1,42 @@
+[
+    {
+        "name": "BGP Anomaly Detection in AS Path Lengths",
+        "instruction": "Perform BGP analysis and detect anomalies in AS path lengths for IPv4 prefixes over two time periods: from January 15, 2020, 15:00 to January 15, 2020, 17:00, and January 18, 2020, 12:00 to January 18, 2020, 13:00."
+    },
+    {
+        "name": "Network Configuration and Reliability",
+        "instruction": "Examine BGP updates from the collector RRC04 between February 10, 2020, 09:00 to February 10, 2020, 21:00. Identify and report any missing or suspicious AS paths."
+    },
+    {
+        "name": "Historical Analysis of AS Prefix Announcements",
+        "instruction": "Conduct a historical analysis of the volume and frequency of AS prefix announcements from collector RRC15 on March 1, 2020, from 08:00 to 20:00. Compare this data with similar periods in the past to identify patterns, spikes, or anomalies in AS prefix announcements."
+    },    
+    {
+        "name": "Time-Series Analysis of Prefix Announcements",
+        "instruction": "From the collector RRC06, gather BGP announcements for the IPv6 prefixes over a period from April 5, 2020, 12:00 to April 12, 2020, 12:00 and conduct a time-series analysis to observe trends."
+    },
+    {
+        "name": "MOAS Security Analysis",
+        "instruction": "Using collector RRC03, identify MOAS (Multiple Origin AS) events for IPv4 prefixes between May 15, 2020, 01:00 to May 15, 2020, 23:00."
+    },
+    {
+        "name": "Visualizing AS Relationships",
+        "instruction": "Analyze BGP announcements from collector RRC12 between June 7, 2020, 10:00 to June 7, 2020, 22:00 and create a visual representation of AS relationships."
+    },
+    {
+        "name": "BGP Community and Policy Insights",
+        "instruction": "Collect and study BGP community attributes and associated policies from collector RRC09 for IPv4 prefixes between July 20, 2020, 11:00 to July 20, 2020, 13:00."
+    },
+    {
+        "name": "BGP Data Gathering for IPv6 Prefixes",
+        "instruction": "Capture BGP updates for IPv6 prefixes using collector RRC07 from August 10, 2020, 05:00 to August 10, 2020, 07:00. Store and categorize this data for future reference."
+    },
+    {
+        "name": "Exploring BGP Communities",
+        "instruction": "Using collector RRC10, study and interpret the BGP communities of IPv4 prefixes between September 12, 2020, 18:00 to September 12, 2020, 20:00."
+    },
+    {
+        "name": "Accessing and Analyzing Live BGP Data",
+        "instruction": "Configure the BGPStream to access live BGP update data from the following collectors: rrc00 and rrc01. Process these live data streams, identify any sudden spikes in BGP announcements, and notify the user of such unusual activities."
+    }
+]

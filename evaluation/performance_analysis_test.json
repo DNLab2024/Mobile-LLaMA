@@ -1,0 +1,42 @@
+[
+    {
+        "name": "5G Network Performance Metrics Analysis",
+        "instruction": "Evaluate key performance indicators and metrics specific to 5G networks to assess overall network health and efficiency."
+    },
+    {
+        "name": "5G QoS Parameters Analysis",
+        "instruction": "Analyze the Quality of Service parameters in 5G networks to ensure they meet the required service standards."
+    },
+    {
+        "name": "5G UE Traffic Volume Analysis",
+        "instruction": "Examine the volume of user equipment traffic in 5G networks to identify usage patterns and capacity requirements."
+    },
+    {
+        "name": "5G UE Network Jitter and CQI Analysis",
+        "instruction": "Assess jitter and Channel Quality Indicator (CQI) in 5G user equipment to evaluate network stability and quality."
+    },
+    {
+        "name": "5G Anomaly Detection",
+        "instruction": "Detect and investigate anomalies in 5G network operations to maintain network integrity and performance."
+    },
+    {
+        "name": "5G UE Jitter Analysis with Outliers",
+        "instruction": "Perform jitter analysis in 5G networks, focusing on outlier detection to identify irregular network behavior."
+    },
+    {
+        "name": "5G Performance Analysis by Geotype",
+        "instruction": "Compare and contrast 5G network performance across different geographical types, such as urban, suburban, and rural areas."
+    },
+    {
+        "name": "5G Per User Capacity Increase Analysis",
+        "instruction": "Calculate and analyze the increase in per-user capacity brought by 5G technology, compared to previous generations."
+    },
+    {
+        "name": "5G Average Traffic Per User Analysis",
+        "instruction": "Measure and analyze the average data traffic per user in a 5G network to understand user behavior and network usage."
+    },
+    {
+        "name": "5G Investment Cost Analysis",
+        "instruction": "Evaluate the cost-effectiveness of investments in 5G infrastructure by analyzing the expenses and benefits."
+    }
+]
