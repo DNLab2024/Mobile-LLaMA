@@ -5,6 +5,30 @@ Language Models (LLMs), with their state-of-the-art capabilities in natural lang
 We present an open-source mobile network-specialized LLM - Mobile-LLaMA, instruction-finetuned LLaMA-13B model. We built Mobile-LLaMA by instruction fine-tuning LLaMA with our own network analysis data that we collect from publicly available, real-world 5G network datasets and expanded by the self-instruct framework utilizing OpenAI’s pretrained models (PMs). Mobile-LLaMA has three main functions: Packet Analysis Function, IP Routing Analysis, and Performance Analysis Function, enabling it to provide network analysis and contribute to the automation and artificial intelligence (AI) required for 5G network management and data analysis. 
 Our evaluation demonstrates Mobile-LLaMA's proficiency in network analysis code generation, achieving a score of 247 out of 300, surpassing Chat-GPT’s score of 209.
 
+## Directory Structure
+
+- **self_instruct_data**: This directory contains three separate subdirectories, each containing instructions generated via the self-instruct framework for one of Mobile-LLaMA's main functions: Packet Analysis, IP Routing Analysis, and Performance Analysis.
+
+- **training_data**: In this directory, you'll find the main training data for Mobile-LLaMA. We've combined all the instructions used in training, totaling 15,111 instruction sets.
+
+## Jupyter Notebook Scripts
+
+- **Mobile-LLaMA_finetune.ipynb**: Jupyter Notebook script is designed for instruction fine-tuning of Mobile-LLaMA 13B. You can use this script to fine-tune the model with specific instructions tailored to your needs.
+
+- **Mobile-LLaMA_demo.ipynb**: Jupyter Notebook script allows you to load Mobile-LLaMA from HuggingFace and use it for demonstration and evaluation purposes. You can use this script to generate and evaluate code for various network analysis tasks.
+
+## Getting Started
+### Install
+Clone this repository and navigate to the ToolBench folder.
+```bash
+git clone github.com/DNLab2024/Mobile-LLaMA.git
+cd Mobile-LLaMA
+```
+Install Package (python>=3.9)
+```bash
+pip install -r requirements.txt
+```
+
 ## Figures and Tables
 ### The Architecture of NWDAF featuring Mobile-LLaMA for 5G network analytics
 <!-- ![The Architecture of NWDAF featuring Mobile-LLaMA for 5G network analytics](images/architecture.png) -->
@@ -15,7 +39,7 @@ Our evaluation demonstrates Mobile-LLaMA's proficiency in network analysis code 
 
 ### Manual seed task example
 <figure>
-  <img src="images/instruction_example.png" alt="Manual seed task example" style="width: auto; max-width: 40%; height: auto; max-height: 50%;">
+  <img src="images/instruction_example.png" alt="Manual seed task example" style="width: auto; max-width: 30%; height: auto; max-height: 40%;">
   <!-- <figcaption>Manual seed task example</figcaption> -->
 </figure>
 

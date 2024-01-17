@@ -1,0 +1,7 @@
+torch==2.0.1
+datasets==2.10.1
+transformers @ git+https://github.com/huggingface/transformers.git@0511369a8b6464ca3e51618ac816df1b34590144
+peft @ git+https://github.com/huggingface/peft.git@e06d94ddeb6c70913593740618df76908b918d66
+trl==0.5.0
+wandb==0.15.7
+accelerate==0.21.0
