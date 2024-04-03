@@ -81,7 +81,7 @@ pip install -r requirements.txt
     <div style="flex: 1; margin-left: 10px;">
         <p align="center">Error type examples</p>
         <p align="center">
-            <img src="images/raw_results.png" alt="Error type examples" style="width: 600px; height: auto;">
+            <img src="images/rawResults.png" alt="Error type examples" style="width: 600px; height: auto;">
         </p>
     </div>
 </div>
