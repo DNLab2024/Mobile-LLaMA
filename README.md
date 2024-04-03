@@ -45,6 +45,11 @@ pip install -r requirements.txt
   <!-- <figcaption>Manual seed task example</figcaption> -->
 </figure>
 
+### Self-instruct generated example
+<figure>
+  <img src="images/self_instruct_example.png" alt="self-instruct example" style="width: auto; max-width: 30%; height: auto; max-height: 40%;">
+</figure>
+
 ### Analysis Tasks in NWDAF of 5G Network with Mobile-LLaMA and Training Data Summary
 | Function of Mobile-LLaMA     | Analysis Tasks                                      | Library           | Manual Instruction Tasks | Self-Instruct Generated Instructions |
 |--------------------------|-----------------------------------------|-------------------|------------------------|-------------------------------------|
