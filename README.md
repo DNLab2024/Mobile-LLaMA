@@ -44,13 +44,13 @@ pip install -r requirements.txt
     <div style="flex: 1; margin-right: 10px;">
         <p align="center">Manual seed task example</p>
         <p align="center">
-            <img src="images/instruction_example.png" alt="Manual seed task example" style="width: auto; max-width: 100%; height: auto; max-height: 200px;">
+            <img src="images/instruction_example.png" alt="Manual seed task example" style="width: auto; max-width: 100%; height: auto; max-height: 100px;">
         </p>
     </div>
     <div style="flex: 1; margin-left: 10px;">
         <p align="center">Self-instruct generated example</p>
         <p align="center">
-            <img src="images/self_instruct_example.png" alt="Self-instruct generated example" style="width: auto; max-width: 100%; height: auto; max-height: 200px;">
+            <img src="images/self_instruct_example.png" alt="Self-instruct generated example" style="width: auto; max-width: 100%; height: auto; max-height: 100px;">
         </p>
     </div>
 </div>
@@ -67,11 +67,20 @@ pip install -r requirements.txt
 ### Overview of Performance Evaluation Analysis Tasks
 
 ### Evaluation workflow
-<figure>
-  <img src="images/eval_workflow.png" alt="" style="width: auto; max-width: 80%; height: auto; max-height: 60%;">
-  <!-- <figcaption>Performance evaluation score: LLaMA 7B, 13B, 70, Mobile-LLaMA, Chat-GPT 3.5</figcaption> -->
-</figure>
-
+<div style="display: flex; flex-direction: row; justify-content: center;">
+    <div style="flex: 1; margin-right: 10px;">
+        <p align="center">Performance evaluation workflow</p>
+        <p align="center">
+            <img src="images/eval_workflow.png" alt="Performance evaluation workflow" style="width: auto; max-width: 100%; height: auto; max-height: 100px;">
+        </p>
+    </div>
+    <div style="flex: 1; margin-left: 10px;">
+        <p align="center">Error type examples</p>
+        <p align="center">
+            <img src="images/raw_results.png" alt="Error type examples" style="width: auto; max-width: 100%; height: auto; max-height: 100px;">
+        </p>
+    </div>
+</div>
 
 ### Performance evaluation score: LLaMA 7B, 13B, 70, Mobile-LLaMA, Chat-GPT 3.5
 <figure>
