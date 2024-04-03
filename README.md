@@ -35,7 +35,7 @@ pip install -r requirements.txt
 ### The Architecture of NWDAF featuring Mobile-LLaMA for 5G network analytics
 <!-- ![The Architecture of NWDAF featuring Mobile-LLaMA for 5G network analytics](images/architecture.png) -->
 <figure>
-  <img src="images/architecture.png" alt="Manual seed task example" style="width: auto; max-width: 100%; height: auto; max-height: 60%;">
+  <img src="images/architecture.png" alt="Architecture" style="width: auto; max-width: 100%; height: auto; max-height: 60%;">
   <!-- <figcaption>Manual seed task example</figcaption> -->
 </figure>
 
@@ -44,13 +44,13 @@ pip install -r requirements.txt
     <div style="flex: 1; margin-right: 10px;">
         <p align="center">Manual seed task example</p>
         <p align="center">
-            <img src="images/instruction_example.png" alt="Manual seed task example" style="width: auto; max-width: 100%; height: auto; max-height: 100px;">
+            <img src="images/instruction_example.png" alt="Manual seed task example" style="width: 600px; height: auto;">
         </p>
     </div>
     <div style="flex: 1; margin-left: 10px;">
         <p align="center">Self-instruct generated example</p>
         <p align="center">
-            <img src="images/self_instruct_example.png" alt="Self-instruct generated example" style="width: auto; max-width: 100%; height: auto; max-height: 100px;">
+            <img src="images/self_instruct_example.png" alt="Self-instruct generated example" style="width: 600px; height: auto;">
         </p>
     </div>
 </div>
@@ -71,13 +71,13 @@ pip install -r requirements.txt
     <div style="flex: 1; margin-right: 10px;">
         <p align="center">Performance evaluation workflow</p>
         <p align="center">
-            <img src="images/eval_workflow.png" alt="Performance evaluation workflow" style="width: 200px; height: auto;">
+            <img src="images/eval_workflow.png" alt="Performance evaluation workflow" style="width: 600px; height: auto;">
         </p>
     </div>
     <div style="flex: 1; margin-left: 10px;">
         <p align="center">Error type examples</p>
         <p align="center">
-            <img src="images/raw_results.png" alt="Error type examples" style="width: 200px; height: auto;">
+            <img src="images/raw_results.png" alt="Error type examples" style="width: 600px; height: auto;">
         </p>
     </div>
 </div>
