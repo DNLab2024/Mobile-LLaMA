@@ -71,13 +71,13 @@ pip install -r requirements.txt
     <div style="flex: 1; margin-right: 10px;">
         <p align="center">Performance evaluation workflow</p>
         <p align="center">
-            <img src="images/eval_workflow.png" alt="Performance evaluation workflow" style="width: auto; max-width: 100%; height: auto; max-height: 100px;">
+            <img src="images/eval_workflow.png" alt="Performance evaluation workflow" style="width: 200px; height: auto;">
         </p>
     </div>
     <div style="flex: 1; margin-left: 10px;">
         <p align="center">Error type examples</p>
         <p align="center">
-            <img src="images/raw_results.png" alt="Error type examples" style="width: auto; max-width: 100%; height: auto; max-height: 100px;">
+            <img src="images/raw_results.png" alt="Error type examples" style="width: 200px; height: auto;">
         </p>
     </div>
 </div>
