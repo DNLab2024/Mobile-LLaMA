@@ -40,17 +40,39 @@ pip install -r requirements.txt
 </figure>
 
 ### Instruction examples
+<p float="left">
+    <p align="center">Prompt example</p>
+        <p align="center">
+            <img src="images/prompt_example.png" alt="Prompt example" width="300" style="margin-right: 10px;">
+    </p>
+    <p align="center">Manual seed task example</p>
+        <p align="center">
+            <img src="images/instruction_example.png" alt="Manual seed task example" width="300" style="margin-right: 10px;">
+    </p>
+    <p align="center">Self-instruct generated example</p>
+        <p align="center">
+            <img src="images/self_instruct_example.png" width="300" alt="Self-instruct generated example" style="margin-right: 10px;">
+    </p>
+</p>
+
+
 <div style="display: flex; flex-direction: row; justify-content: center;">
+    <div style="flex: 1; margin-right: 10px;">
+        <p align="center">Prompt example</p>
+        <p align="center">
+            <img src="images/prompt_example.png" alt="Prompt example" style="width: 400px; height: auto;">
+        </p>
+    </div>
     <div style="flex: 1; margin-right: 10px;">
         <p align="center">Manual seed task example</p>
         <p align="center">
-            <img src="images/instruction_example.png" alt="Manual seed task example" style="width: 600px; height: auto;">
+            <img src="images/instruction_example.png" alt="Manual seed task example" style="width: 400px; height: auto;">
         </p>
     </div>
     <div style="flex: 1; margin-left: 10px;">
         <p align="center">Self-instruct generated example</p>
         <p align="center">
-            <img src="images/self_instruct_example.png" alt="Self-instruct generated example" style="width: 600px; height: auto;">
+            <img src="images/self_instruct_example.png" alt="Self-instruct generated example" style="width: 400px; height: auto;">
         </p>
     </div>
 </div>
