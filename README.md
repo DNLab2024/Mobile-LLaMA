@@ -39,16 +39,22 @@ pip install -r requirements.txt
   <!-- <figcaption>Manual seed task example</figcaption> -->
 </figure>
 
-### Manual seed task example
-<figure>
-  <img src="images/instruction_example.png" alt="Manual seed task example" style="width: auto; max-width: 30%; height: auto; max-height: 40%;">
-  <!-- <figcaption>Manual seed task example</figcaption> -->
-</figure>
+### Instruction examples
+<div style="display: flex; flex-direction: row; justify-content: center;">
+    <div style="flex: 1; margin-right: 10px;">
+        <p align="center">Manual seed task example</p>
+        <p align="center">
+            <img src="images/instruction_example.png" alt="Manual seed task example" style="width: auto; max-width: 100%; height: auto; max-height: 200px;">
+        </p>
+    </div>
+    <div style="flex: 1; margin-left: 10px;">
+        <p align="center">Self-instruct generated example</p>
+        <p align="center">
+            <img src="images/self_instruct_example.png" alt="Self-instruct generated example" style="width: auto; max-width: 100%; height: auto; max-height: 200px;">
+        </p>
+    </div>
+</div>
 
-### Self-instruct generated example
-<figure>
-  <img src="images/self_instruct_example.png" alt="self-instruct example" style="width: auto; max-width: 30%; height: auto; max-height: 40%;">
-</figure>
 
 ### Analysis Tasks in NWDAF of 5G Network with Mobile-LLaMA and Training Data Summary
 | Function of Mobile-LLaMA     | Analysis Tasks                                      | Library           | Manual Instruction Tasks | Self-Instruct Generated Instructions |
