@@ -72,6 +72,28 @@ if anomalies:
 else:
     print("No anomalies detected.")
 ```
+```plaintext
+Anomalies detected from 2020-01-15 15:00:00 to 2020-01-15 17:00:00:
+Prefix: 131.221.199.0/24, AS Path Length: 16
+Prefix: 82.199.209.0/24, AS Path Length: 14
+Prefix: 147.110.61.0/24, AS Path Length: 14
+Prefix: 147.110.51.0/24, AS Path Length: 14
+Prefix: 147.110.44.0/24, AS Path Length: 14
+Prefix: 147.110.69.0/24, AS Path Length: 14
+Prefix: 147.110.92.0/24, AS Path Length: 14
+Prefix: 147.110.32.0/24, AS Path Length: 14
+Prefix: 147.110.49.0/24, AS Path Length: 14
+Prefix: 147.110.24.0/24, AS Path Length: 14
+Prefix: 147.110.106.0/24, AS Path Length: 14
+Prefix: 147.110.13.0/24, AS Path Length: 14
+Prefix: 147.110.56.0/24, AS Path Length: 14
+Prefix: 147.110.50.0/24, AS Path Length: 14
+Prefix: 147.110.46.0/24, AS Path Length: 14
+Prefix: 147.110.62.0/24, AS Path Length: 14
+Prefix: 147.110.42.0/24, AS Path Length: 14
+...
+```
+
 ## Packet analysis
 Given a n3.pcap file containing network traffic data, create a Python script using Scapy to process the PCAP. The script should extract the source IP, destination IP, source port, destination port, and the raw payload data for each packet in the PCAP. Impletent try-except blocks for errors if expected layers IP, TCP/UDP, Raw. Store this data in a pandas DataFrame and display it.
 
