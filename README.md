@@ -13,15 +13,15 @@ Our evaluation demonstrates Mobile-LLaMA's proficiency in network analysis code 
 
 - **evaluation**: Three JSON files containing specific instructions used for "Performance Evaluation" in each respective function.
 
-## Jupyter Notebook Scripts
+- **finetuning**: Jupyter Notebook script is designed for instruction fine-tuning of Mobile-LLaMA 13B. You can use this script to fine-tune the model with specific instructions tailored to your needs.
 
-- **Mobile-LLaMA_finetune.ipynb**: Jupyter Notebook script is designed for instruction fine-tuning of Mobile-LLaMA 13B. You can use this script to fine-tune the model with specific instructions tailored to your needs.
+## Jupyter Notebook Scripts
 
 - **Mobile-LLaMA_demo.ipynb**: Jupyter Notebook script allows you to load Mobile-LLaMA from HuggingFace and use it for demonstration and evaluation purposes. You can use this script to generate and evaluate code for various network analysis tasks.
 
 ## Getting Started
 ### Install
-Clone this repository and navigate to the ToolBench folder.
+Clone this repository and navigate to the folder.
 ```bash
 git clone github.com/DNLab2024/Mobile-LLaMA.git
 cd Mobile-LLaMA
