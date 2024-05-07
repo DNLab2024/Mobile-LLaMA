@@ -1,4 +1,4 @@
-## Usage
+## Fine-tuning LLaMA
 Install Package (python>=3.9)
 ```bash
 pip install -r ../requirements.txt

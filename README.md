@@ -13,7 +13,7 @@ Our evaluation demonstrates Mobile-LLaMA's proficiency in network analysis code 
 
 - **evaluation**: Three JSON files containing specific instructions used for "Performance Evaluation" in each respective function.
 
-- **finetuning**: Jupyter Notebook script is designed for instruction fine-tuning of Mobile-LLaMA 13B. You can use this script to fine-tune the model with specific instructions tailored to your needs.
+- **finetuning**: Python and Jupyter Notebook scripts designed for instruction fine-tuning of LLaMA 13B.
 
 ## Jupyter Notebook Scripts
 
